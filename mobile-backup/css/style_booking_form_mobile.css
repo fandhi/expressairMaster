@@ -1,0 +1,72 @@
+
+
+#mobile form.form_booking_new fieldset label {
+color: #fff;
+margin: 0 0 5px 0;
+display: block;
+}
+
+#mobile #tabs_new {	
+	display:block;
+	width:300px;
+	min-height: 402px;
+	background:#A83537 url('../images/material/booking-bgt.png') no-repeat;
+	float:left;	
+	padding:0;
+	border:0;	
+	margin-left:0px;	
+	-moz-box-shadow:    0px 5px 8px 0px #5B4042;
+	-webkit-box-shadow: 0px 5px 8px 0px #5B4042;
+	box-shadow:         0px 5px 8px 0px #5B4042;
+}
+#mobile #booking_engine_new {
+	display:block;
+	width: 270px;
+	/*min-height: 442px;*/
+	padding: 0 14px 0px 14px;	
+	overflow: hidden;
+}
+#mobile #booking_engine_new h2{
+	color:#f0f0f0; 
+	padding:10px 0 10px 0; 
+	margin:0 0 12px 0; 
+	border-bottom:0px solid #B3AE9F;
+	/*background:url('/EA/images/material/h2_booking.png') no-repeat right top;*/
+	font-size:20px;
+	text-align:center;
+}
+#mobile .form_booking_new {display:block;}
+#mobile form.form_booking_new fieldset{padding:0 0 12px 0;}
+#mobile form.form_booking_new fieldset label {color:#fff; margin:0 0 0px 0; display:block; float:left; width:65px; line-height:25px;}
+#mobile form.form_booking_new fieldset .wrap_radio1{float:left; margin:6px 0px 0 0; color:#fff;}
+#mobile form.form_booking_new fieldset .wrap_radio1 .radio1{float:left; margin-right:13px;}
+#mobile form.form_booking_new fieldset .wrap_radio1 .radio1 input{margin-right:2px; border:0; width:13px; height:13px;}
+#mobile form.form_booking_new fieldset .currency {float:left; margin-top:5px; }
+#mobile form.form_booking_new fieldset .currency label {float:left; margin:0px 0px 0px 0; line-height:25px; height:25px;}
+#mobile form.form_booking_new fieldset .currency select{width:80px;}
+
+#mobile form.form_booking_new fieldset .wrap_selectL {float:none; margin-bottom:10px;}
+#mobile form.form_booking_new fieldset .selectL {width:190px;}
+
+#mobile form.form_booking_new fieldset .wrap_selectR {float:none; margin-left:65px}
+#mobile form.form_booking_new fieldset .selectR {width:90px;}
+
+#mobile form.form_booking_new fieldset .wrap_age1 {float:none; width:150px; margin:0 10px 0 0;}
+#mobile form.form_booking_new fieldset .wrap_age2 {float:none; width:150px; margin:10px 10px 10px 0;}
+#mobile form.form_booking_new fieldset .wrap_age3 {float:left; width:120px; margin:0 5px 0 0;}
+#mobile form.form_booking_new fieldset .wrap_age1 label,
+#mobile form.form_booking_new fieldset .wrap_age2 label,
+#mobile form.form_booking_new fieldset .wrap_age3 label  {margin:0px 0px 0px 0; line-height:25px; height:25px; float:left;}
+#mobile form.form_booking_new fieldset .select_age {width:50px; }
+#mobile form.form_booking_new fieldset  a.i_what {float:left; margin:5px 0 0 0;}
+#mobile form.form_booking_new fieldset .warning {
+	float:left;	
+	height:13px;
+	background:url('../images/material/icon_warning.png') no-repeat 0 1px;
+	padding:0 0 0 15px;
+	color:#ef0000;
+}
+
+#mobile a.term_condition_new {color:#fff;}
+#mobile a.term_condition_new:hover {color:#ccc;}
+        

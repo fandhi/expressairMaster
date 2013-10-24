@@ -1,0 +1,96 @@
+@media (min-width: 1010px) {
+	#desktop {display:block;}
+	#mobile {display:none;}
+}
+@media (max-width: 1008px) {
+	#mobile {display:block;}
+	#desktop {display:none;}
+}
+
+
+
+
+@media (max-width:1024px) {
+	.wrapper_header, #bg_wrapper, .wrapper, .wrapper2, #header {width:100%;}
+	.wrapper_header {background: url(../images/material/bg_header_new.png) no-repeat -12px 0;}
+	#home_widget, #home_widget_bottom {padding-left:20px; padding-right:15px;}
+	.detail_content {width:98%; padding-left:10px; padding-right:10px;}
+	#left_wrap {margin-left:15px;}
+	#right_wrap {margin-right:15px;}
+	#banner_page {width:100%;}
+	#banner_page img {width:100%; height:auto;}
+	
+	.steps_new .text-box {width:450px;}
+	
+	
+}
+
+
+
+
+@media (min-width:500px) and (max-width: 1008px) {
+	#mobile .wrapper_header, #mobile #bg_wrapper, #mobile .wrapper, #mobile .wrapper2, #mobile #header {width:100%;}
+	#mobile .head_right {
+		padding-right:10px;
+	}
+	.toggleMenu {
+		background:url('../images/material/toggleMenu.png') no-repeat right 0px;
+		padding-bottom:15px;
+	}
+	#mobile #banner {width:97%; margin-bottom:10px;}
+	#mobile #banner {height:auto;}
+	#mobile li.bjqs-slide {height:auto !important;}
+	#mobile li img {width:100%; height:auto !important;}	
+	#mobile p.bjqs-caption {display:none;}
+	#mobile #wrap_boxAbs {float:none; margin-left:auto; margin-right:auto; width:98%;}
+	#mobile #home_widget, #mobile #page {width:640px; margin-left:auto; margin-right:auto; padding-left:0; padding-right:0;}
+	#mobile #home_widget_bottom {width:640px; margin: 0 auto;}
+	#mobile .widget_fare {margin-right:20px;}
+	#mobile #widget_latesNews, #mobile #widget_touristGuide, #mobile #widget_place {margin-right:20px;}
+	
+	#mobile .wrapper_header {
+		background: url(../images/material/header_tablet.png) no-repeat -12px 0; 
+		height:165px;
+	}
+	#mobile #header {height:150px;}
+	#mobile .steps_new {padding-top:40px;}
+	#mobile .steps_new .text-box {width:97%;}		
+	#mobile .sideleftmenu ul li {float:none; width:300px;}
+	#mobile .sideleft_mid {background:none; padding-top:20px;}
+	#mobile .news_list .thumb {
+		float:none;
+		width:auto;
+		height:auto;
+	}
+	#mobile .news_list .short_des {width:100%;}
+	#mobile form.form_booking fieldset .currency select,
+	#mobile form.form_booking fieldset .selectL	{width:80%;}
+	#mobile form.form_booking fieldset .selectR {width:80%;}
+	#mobile form.form_booking fieldset .wrap_age1, #mobile form.form_booking fieldset .wrap_age2, #mobile form.form_booking fieldset .wrap_age3 {width:100%;}
+	#mobile form.form_booking fieldset .select_age {width:80%;}
+	#mobile #add_info {width:100%;}
+	
+	
+}
+
+@media (max-width:680px) {
+	#mobile .widget_fare, 
+	#mobile .widget_promo, 
+	#mobile #widget_latesNews, 
+	#mobile #widget_touristGuide, 
+	#mobile #widget_place, 
+	#mobile #widget_quickLink  {float:none; margin-left:auto; margin-right:auto;}
+	#mobile .dc_left {float:none; margin:0 auto;}
+	#mobile .dc_right {float:none; width:325px; margin:25px auto 0 auto; border:none;}
+	#mobile #tabs_new {margin-bottom:30px;}
+	#mobile .sideleftmenu ul li {float:none; width:300px;}
+	#mobile .sideleft_mid {background:none; padding-top:20px;}
+	#mobile .news_list .thumb {
+		float:none;
+		width:auto;
+		height:auto;
+	}
+	#mobile .news_list .short_des {width:100%;}
+	#mobile #home_widget_bottom {width:500px; margin: 0 auto;}
+	
+}

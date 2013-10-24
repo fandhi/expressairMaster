@@ -1,0 +1,53 @@
+
+#banner-fade-mobile,
+#banner-slide{
+	amargin-bottom: 60px;
+}
+
+#mobile ul.bjqs-controls.v-centered li a{
+	display:block;
+	padding:10px;
+	background:#fff;
+	color:#000;
+	text-decoration: none;
+}
+
+#mobile ul.bjqs-controls.v-centered li a:hover{
+	background:#000;
+	color:#fff;
+}
+
+#mobile ol.bjqs-markers li a{
+	padding:5px 10px;
+	background:#000;
+	color:#fff;
+	margin:5px;
+	text-decoration: none;
+}
+
+#mobile ol.bjqs-markers li.active-marker a,
+#mobile ol.bjqs-markers li a:hover{
+	background: #999;
+}
+
+#mobile p.bjqs-caption{
+	/*background: rgba(255,255,255,0.5);*/
+}
+
+
+/* Basic jQuery Slider essential styles */
+
+#mobile ul.bjqs{position:relative; list-style:none;padding:0;margin:0;/*overflow:hidden;*/ display:block;}
+#mobile li.bjqs-slide{position:absolute; display:block;height: 200px !important;background: #fff;}
+#mobile ul.bjqs-controls{list-style:none;margin:0;padding:0;z-index:9999;}
+#mobile ul.bjqs-controls.v-centered li a{position:absolute;}
+#mobile ul.bjqs-controls.v-centered li.bjqs-next a{right:0; display:none;}
+#mobile ul.bjqs-controls.v-centered li.bjqs-prev a{left:0; display:none;}
+#mobile ol.bjqs-markers{list-style: none; padding: 0; margin: 0; width:100%; display:none;}
+#mobile ol.bjqs-markers.h-centered{text-align: center;}
+#mobile ol.bjqs-markers li{display:inline;}
+#mobile ol.bjqs-markers li a{display:inline-block;}
+#mobile p.bjqs-caption{background: url(../images/material/arrow_circle_right_blue.png) no-repeat 0 29px;display:block;width:91.5%;line-height: 16px;margin:0;padding:2% 0 2% 25px;position:absolute;/*bottom:0; display:none;*/top: 140px;color: #133b5e;}
+#mobile p.bjqs-caption b{font-size: 22px;margin-left:-25px;margin-bottom: 5px;display: block;}
+#mobile p.bjqs-caption i {font-family: georgia;}
+#mobile li img {height: 135px !important;}

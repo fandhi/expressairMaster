@@ -1,0 +1,65 @@
+
+h2.acc_trigger {
+	padding: 0;	margin: 0 0 1px 0;
+	background:url(../images/material/h2_trigger_a.png) no-repeat 620px 0;
+	height: 30px;	line-height: 30px;
+	width: 640px;
+	font-size: 12px;
+	font-weight: normal;	
+}
+
+h2.acc_trigger a {
+	color: #777;
+	text-decoration: none;
+	display: block;
+	padding: 0 32px 0 22px;	
+}
+h2.acc_trigger a.bg1 {background:#F1F1F1 url('../images/material/h2_trigger_a.png') no-repeat 620px 0;}
+h2.acc_trigger a.bg2 {background:#F6F6F6 url('../images/material/h2_trigger_a.png') no-repeat 620px 0;}
+
+h2.acc_trigger a:hover {
+	color: #777;
+}
+h2.acc_trigger.active {background:url(../images/material/h2_trigger_a.png) no-repeat 620px 0; display:none;}
+h2.active {background:url(../images/material/h2_trigger_a.png) no-repeat 620px 0;}
+
+
+
+/* acc triger2 */
+h2.acc_trigger2 {
+	padding: 0;	margin: 0 0 2px 0;
+	background:url(../images/material/acc_trigger2.jpg) no-repeat 0 0;
+	height: 30px;	line-height: 30px;
+	width: 640px;
+	font-size: 12px;
+	font-weight: normal;	
+}
+
+h2.acc_trigger2 a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 0 32px 0 18px;	
+}
+
+h2.acc_trigger2 a:hover {
+	color: #fff;
+}
+h2.acc_trigger2.active {background:url(../images/material/acc_trigger2_hover.jpg) no-repeat 0 0;}
+/* end acc triger2 */
+
+
+
+.acc_container {
+	margin: 0 0 1px; padding: 0;
+	overflow: hidden;
+	width: 640px;
+	clear: both;
+	background: #f0f0f0;	
+}
+.acc_container .block {
+	padding:0px 0px;
+}
+
+
+

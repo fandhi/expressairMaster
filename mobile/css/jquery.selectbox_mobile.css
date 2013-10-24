@@ -1,0 +1,106 @@
+@CHARSET "UTF-8";
+#mobile .sbHolder{		
+	font-weight: normal;
+	height: 15px;
+	position: relative;
+	width:32px;
+}
+#mobile .sbHolder:focus .sbSelector{
+	
+}
+#mobile .sbSelector{
+	display: block;
+	height: 15px;
+	left: 0;
+	line-height: 12px;
+	outline: none;
+	overflow: hidden;
+	position: absolute;	
+	top: 0;
+	width: 55px;	
+}
+#mobile .sbSelector:link, #mobile .sbSelector:visited, #mobile .sbSelector:hover{
+	color: #074e8d;
+	outline: none;
+	text-decoration: none;
+}
+#mobile .sbToggle{
+	background: url('../images/material/icon_arrowLang.png') 0 0 no-repeat;
+	display: block;
+	height: 10px;
+	outline: none;
+	position: absolute;
+	right: 0;
+	top: 4px;
+	width: 7px;
+}
+#mobile .sbToggle:hover{
+	background: url('../images/material/icon_arrowLang.png') 0 0 no-repeat;
+}
+#mobile .sbToggleOpen{
+	background: url('../images/material/icon_arrowLang.png') 0 0 no-repeat;
+}
+#mobile .sbToggleOpen:hover{
+	background: url('../images/material/icon_arrowLang.png') 0 0 no-repeat;
+}
+#mobile .sbHolderDisabled{
+	background-color: #3C3C3C;
+	border: solid 1px #515151;
+}
+#mobile .sbHolderDisabled .sbHolder{
+	
+}
+#mobile .sbHolderDisabled .sbToggle{
+	
+}
+#mobile .sbOptions{
+	background-color: #777;
+	border: solid 0px #ccc;
+	list-style: none;	
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 14px;
+	width: 32px;
+	z-index: 1;
+	overflow-y: auto;
+	padding:5px 0;
+	margin-top:2px;
+}
+#mobile .sbOptions li{
+	padding: 0 3px;
+}
+#mobile .sbOptions a{
+	border-bottom: dotted 0px #D4BE96;
+	display: block;
+	outline: none;
+	padding: 3px 0 3px 3px;
+}
+#mobile .sbOptions a:link, #mobile .sbOptions a:visited{
+	color: #fff;
+	text-decoration: none;
+}
+#mobile .sbOptions a:hover,
+#mobile .sbOptions a:focus,
+#mobile .sbOptions a.sbFocus{
+	color: #E6E6E6;
+}
+#mobile .sbOptions li.last a{
+	border-bottom: none;
+}
+#mobile .sbOptions .sbDisabled{
+	border-bottom: dotted 1px #515151;
+	color: #999;
+	display: block;
+	padding: 7px 0 7px 3px;
+}
+#mobile .sbOptions .sbGroup{
+	border-bottom: dotted 1px #515151;
+	color: #EBB52D;
+	display: block;
+	font-weight: bold;
+	padding: 7px 0 7px 3px;
+}
+#mobile .sbOptions .sbSub{
+	padding-left: 17px;
+}
